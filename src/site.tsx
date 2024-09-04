@@ -50,7 +50,7 @@ const Site = () => {
                     <h1 className="secondary_text display-2 fw-bold text-center">Our Mission</h1>
                     <p>To build a commercially viable, evolving self-contained, and well-equipped enterprise that is adaptive to and capable of withstanding competitive forces and challenges that present themselves in the wider environment in its quest to outlive its founders.</p>
                 </div>
-                <div>
+                <div className="mb-3 mt-3">
                     <img src="https://ngratesc.sirv.com/ristian/2149009004.jpg" className="img-fluid"/>
                 </div>
 
