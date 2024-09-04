@@ -1,0 +1,36 @@
+@font-face {
+  font-family: baskervviller;
+  src: url("./assets/font_two.ttf");
+}
+
+:root{
+  --primary_color:#e69100;
+}
+
+body{
+  font-family: baskervviller, sans-serif !important;
+}
+
+.custom_font{
+  font-family: baskervviller;
+}
+
+
+.primary_button{
+  background-color: var(--primary_color) !important;
+  color: white !important;
+  min-width: 150px;
+
+}
+
+.secondary_button{
+  background-color: black;
+  color: white !important;
+  min-width: 150px;
+
+}
+
+
+.primary_background{
+  background-color: var(--primary_color);
+}
