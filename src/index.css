@@ -4,7 +4,8 @@
 }
 
 :root{
-  --primary_color:#e69100;
+  --primary_color:rgb(87, 1, 87);
+  --secondary_color:rgb(88, 0, 0);
 }
 
 body{
@@ -24,13 +25,24 @@ body{
 }
 
 .secondary_button{
-  background-color: black;
+  background-color: var(--secondary_color);
   color: white !important;
   min-width: 150px;
 
 }
 
-
 .primary_background{
   background-color: var(--primary_color);
+}
+
+.secondary_background{
+  background-color: var(--secondary_color);
+}
+
+.primary_text{
+  color: var(--primary_color);
+}
+
+.secondary_text{
+  color: var(--secondary_color);
 }
