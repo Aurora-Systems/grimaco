@@ -46,3 +46,7 @@ body{
 .secondary_text{
   color: var(--secondary_color);
 }
+
+a{
+  text-decoration: none;
+}
