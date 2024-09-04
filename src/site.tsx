@@ -2,7 +2,6 @@ import { bg_img } from "./compoents/css_functions"
 import Marquee from "react-fast-marquee"
 import Star from "./compoents/StarRating"
 import {FloatingWhatsApp} from "react-floating-whatsapp"
-
 const Site = () => {
     return (
         <div>
@@ -19,7 +18,7 @@ const Site = () => {
                 <div className="text-center bg-light bg-opacity-50 p-5 rounded">
                     <h1 className="display-1 primary_text">Grimaco <span className="secondary_text">Incorporated</span></h1>
                     <p className="f fst-italic">"Your Satisfaction, Our Pleasure"</p>
-                    <a href="https://wa.me/263776034923" target="_blank"><button className="btn primary_button">Find Out More</button></a>
+                    <a href="https://wa.me/+263776034923" target="_blank"><button className="btn primary_button">Find Out More</button></a>
                 </div>
             </div>
             <div className="container-fluid">
@@ -50,6 +49,9 @@ const Site = () => {
                 <div>
                     <h1 className="secondary_text display-2 fw-bold text-center">Our Mission</h1>
                     <p>To build a commercially viable, evolving self-contained, and well-equipped enterprise that is adaptive to and capable of withstanding competitive forces and challenges that present themselves in the wider environment in its quest to outlive its founders.</p>
+                </div>
+                <div>
+                    <img src="https://ngratesc.sirv.com/ristian/2149009004.jpg" className="img-fluid"/>
                 </div>
 
                 <div className=""><p><span className="display-5 fw-bold primary_text ">Our Core Values</span></p>
