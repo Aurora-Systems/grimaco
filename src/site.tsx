@@ -52,28 +52,24 @@ const Site = () => {
                     <p>To build a commercially viable, evolving self-contained, and well-equipped enterprise that is adaptive to and capable of withstanding competitive forces and challenges that present themselves in the wider environment in its quest to outlive its founders.</p>
                 </div>
 
-                <div>Our Values</div>
+                <div className=""><p><span className="display-5 fw-bold primary_text ">Our Core Values</span></p>
+                    <p>At Grimaco Incorporated, our core values guide everything we do. They are the foundation of our commitment to excellence and integrity in every service we offer. Here’s a closer look at what drives us:</p>
+                </div>
                 <div className="row gap-2 m-4">
                     <div className="col-sm text-center p-3 border">
-                        <p className="fw-bold">Global Reach</p>
-                        <p>Our connections span across four major countries, giving you access to international job markets.</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" className="bi bi-globe" viewBox="0 0 16 16">
-                            <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m7.5-6.923c-.67.204-1.335.82-1.887 1.855A8 8 0 0 0 5.145 4H7.5zM4.09 4a9.3 9.3 0 0 1 .64-1.539 7 7 0 0 1 .597-.933A7.03 7.03 0 0 0 2.255 4zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a7 7 0 0 0-.656 2.5zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5zM8.5 5v2.5h2.99a12.5 12.5 0 0 0-.337-2.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5zM5.145 12q.208.58.468 1.068c.552 1.035 1.218 1.65 1.887 1.855V12zm.182 2.472a7 7 0 0 1-.597-.933A9.3 9.3 0 0 1 4.09 12H2.255a7 7 0 0 0 3.072 2.472M3.82 11a13.7 13.7 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm6.853 3.472A7 7 0 0 0 13.745 12H11.91a9.3 9.3 0 0 1-.64 1.539 7 7 0 0 1-.597.933M8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855q.26-.487.468-1.068zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.7 13.7 0 0 1-.312 2.5m2.802-3.5a7 7 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7 7 0 0 0-3.072-2.472c.218.284.418.598.597.933M10.855 4a8 8 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4z" />
-                        </svg>
+                        <p className="fw-bold primary_text">Reliability</p>
+                        <p>We pride ourselves on being a dependable partner you can count on. Our commitment to reliability means delivering consistent, high-quality results and being there for our clients whenever they need us. Trust us to be a stable force in your business journey, providing support and solutions you can always rely on</p>
+                        
                     </div>
                     <div className="col-sm text-center rounded p-3 border">
-                        <p className="fw-bold">Tailored Placements</p>
-                        <p>We consider your CV, educational background, and age to find the best possible job match for you.</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" className="bi bi-hand-index" viewBox="0 0 16 16">
-                            <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435l.106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1M8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5 5 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.6 2.6 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046zm2.094 2.025" />
-                        </svg>
+                        <p className="fw-bold primary_text">Intergirty</p>
+                        <p>Integrity is the cornerstone of our business. We operate with transparency, honesty, and ethical principles in every interaction. Our commitment to integrity ensures that we build lasting, trust-based relationships with our clients, always putting their best interests at the forefront of our work.</p>
+                       
                     </div>
                     <div className="col-sm text-center rounded p-3 border">
-                        <p className="fw-bold">Comprehensive Support</p>
-                        <p>From the application process to job placement, we provide full support to ensure your success.</p>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" className="bi bi-headset" viewBox="0 0 16 16">
-                            <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5" />
-                        </svg>
+                        <p className="fw-bold primary_text">Excellence</p>
+                        <p>Excellence is at the heart of everything we do. We strive for the highest standards in all aspects of our services, from business consultancy to sales training and coaching. Our pursuit of excellence ensures that every solution we provide is of the highest quality, designed to meet and exceed your expectations.</p>
+                        
                     </div>
                 </div>
             </div>
