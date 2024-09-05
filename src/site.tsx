@@ -153,7 +153,7 @@ const Site = () => {
             </div>
             <div className="text-center text-white secondary_background container-fluid pt-2 pb-2">
                 <div className="row d-flex align-items-center">
-                    <div className="col-sm">
+                    <div className="col-sm mb-3">
                         <p className="fw-bold">Contact Details</p>
                         <div className="d-flex flex-column">
                             <span>7 Bodmin Avenue, Cotswold Hills, Mabelreign. Harare. </span>
@@ -161,7 +161,7 @@ const Site = () => {
                             <span>+263 77 603 4923</span>
                         </div>
                     </div>
-                    <div className="col-sm">
+                    <div className="col-sm mb-3">
                         <p className="fw-bold">Socials</p>
                         <div className="d-flex flex-column">
                             <span><a className="text-white" href="https://www.linkedin.com/company/grimaco-incorporated/"  target="_blank">Linkedin</a></span>
@@ -169,7 +169,7 @@ const Site = () => {
                             <span>All Rights Reserved © Grimaco Incorporated {new Date().getFullYear()}</span>
                         </div>
                     </div>
-                    <div className="col-sm">
+                    <div className="col-sm mb-3">
                         <h1 className="display-4">Grimaco Incorporated</h1>
                     </div>
                 </div>
