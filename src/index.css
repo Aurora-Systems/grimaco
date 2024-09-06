@@ -4,8 +4,8 @@
 }
 
 :root{
-  --primary_color:rgb(87, 1, 87);
-  --secondary_color:rgb(88, 0, 0);
+  --primary_color:#570157;
+  --secondary_color:#580000;
 }
 
 body{
