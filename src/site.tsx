@@ -20,7 +20,7 @@ const Site = () => {
       .then(
         () => {
           toast('Message Sent');
-          form.reset()
+          form.current.reset()
         },
         (error) => {
             toast('Failed to send message');
