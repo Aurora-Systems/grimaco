@@ -50,3 +50,9 @@ body{
 a{
   text-decoration: none;
 }
+
+
+.card_hover:hover{
+  background-color: var(--secondary_color);
+  color: white !important;
+}

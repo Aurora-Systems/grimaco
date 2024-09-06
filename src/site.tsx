@@ -2,7 +2,34 @@ import { bg_img } from "./compoents/css_functions"
 import Marquee from "react-fast-marquee"
 import Star from "./compoents/StarRating"
 import {FloatingWhatsApp} from "react-floating-whatsapp"
+import emailjs from "@emailjs/browser"
+import { FormEvent, useRef, useState } from "react"
+import {ToastContainer,toast} from "react-toastify"
+import 'react-toastify/dist/ReactToastify.css';
+
 const Site = () => {
+    const [loading, set_loading] =useState<boolean>(false)
+    const form:any = useRef();
+    const sendEmail = (e:FormEvent) => {
+    e.preventDefault();
+    set_loading(true)
+    emailjs
+      .sendForm('service_2tebyla', 'template_u5zwtxl', form.current, {
+        publicKey: 'ew1StMU__aUWbv1Rf',
+      })
+      .then(
+        () => {
+          toast('Message Sent');
+          form.reset()
+        },
+        (error) => {
+            toast('Failed to send message');
+        },
+      ).finally(()=>{
+        set_loading(false)
+      })
+  };
+
     return (
         <div>
             <div className="d-flex justify-content-between p-2 align-items-center">
@@ -20,6 +47,35 @@ const Site = () => {
                     <p className="f fst-italic">"Your Satisfaction, Our Pleasure"</p>
                     <a href="https://wa.me/+263776034923" target="_blank"><button className="btn primary_button">Find Out More</button></a>
                 </div>
+            </div>
+            <div className="container-fluid">
+                <div>
+                    <h1 className="fw-bold display-2 text-center primary_text pt-5 pb-5">Our Services</h1>
+                </div>
+                <div className=" pb-4">
+
+                <div className="row gap-3 m-4 text-center ">
+                    <div className="col-sm card_hover p-3 rounded border">
+                        <p className="fw-bold ">Business Consultancy</p>
+                        <p>Our business consultancy services are designed to help you navigate the complexities of today's market. We provide strategic insights and actionable plans tailored to your unique business needs, helping you optimize operations, reduce costs, and unlock new growth opportunities. Partner with us to transform your business into a more efficient, competitive, and successful enterprise.</p>
+                    </div>
+                    <div className="col-sm card_hover p-3 rounded border">
+                        <p className="fw-bold ">Sales Training</p>
+                        <p>Empower your sales team with the skills and knowledge they need to excel. Our sales training programs focus on developing critical sales techniques, customer engagement strategies, and closing skills. Whether your team is new to sales or seasoned professionals, our training is tailored to enhance their performance, drive higher conversion rates, and ultimately boost your bottom line.</p>
+                    </div>
+                </div>
+                <div className="row gap-3 m-4 text-center">
+                    <div className="col-sm card_hover  p-3 rounded border">
+                        <p className="fw-bold ">Executive Coaching</p>
+                        <p>Designed for business professionals, our executive coaching services focus on enhancing execution and motivation. We work with leaders and executives to refine their skills, overcome challenges, and unlock their full potential. Whether you're looking to improve decision-making, leadership abilities, or overall effectiveness, our personalized coaching ensures you achieve your professional goals and lead your organization with confidence.</p>
+                    </div>
+                    <div className="col-sm p-3 card_hover rounded border">
+                        <p className="fw-bold ">Network Marketing</p>
+                        <p>Expand your business reach with our Network Marketing services. We help you build strong, sustainable networks to increase your market presence and drive growth. Through strategic planning and personalized guidance, we equip you with the tools and tactics needed to develop a successful network marketing strategy that fosters relationships, generates leads, and boosts your brand visibility. Let us help you tap into new opportunities by leveraging the power of networks to grow your business.</p>
+
+                    </div>
+                </div>
+            </div>
             </div>
             <div className="container-fluid">
                 <div className="row">
@@ -75,28 +131,7 @@ const Site = () => {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid">
-                <div>
-                    <h1 className="fw-bold display-2 text-center primary_text pt-5 pb-5">Our Services</h1>
-                </div>
-                <div className=" pb-4">
-
-                <div className="row gap-3 m-4 text-center ">
-                    <div className="col-sm  p-3 rounded border">
-                        <p className="fw-bold secondary_text">Business Consultancy</p>
-                        <p>Our business consultancy services are designed to help you navigate the complexities of today's market. We provide strategic insights and actionable plans tailored to your unique business needs, helping you optimize operations, reduce costs, and unlock new growth opportunities. Partner with us to transform your business into a more efficient, competitive, and successful enterprise.</p>
-                    </div>
-                    <div className="col-sm  p-3 rounded border">
-                        <p className="fw-bold secondary_text">Sales Training</p>
-                        <p>Empower your sales team with the skills and knowledge they need to excel. Our sales training programs focus on developing critical sales techniques, customer engagement strategies, and closing skills. Whether your team is new to sales or seasoned professionals, our training is tailored to enhance their performance, drive higher conversion rates, and ultimately boost your bottom line.</p>
-                    </div>
-                    <div className="col-sm  p-3 rounded border">
-                        <p className="fw-bold secondary_text">Executive Coaching</p>
-                        <p>Designed for business professionals, our executive coaching services focus on enhancing execution and motivation. We work with leaders and executives to refine their skills, overcome challenges, and unlock their full potential. Whether you're looking to improve decision-making, leadership abilities, or overall effectiveness, our personalized coaching ensures you achieve your professional goals and lead your organization with confidence.</p>
-                    </div>
-                </div>
-            </div>
-            </div>
+           
             <div className="text-center pt-5 pb-5">
                 <h1 className="fw-bold display-2">
                     Our Portfolio
@@ -151,6 +186,40 @@ const Site = () => {
                 </div>
 
             </div>
+            <div className="container-fluid mb-3">
+                <h1 className="secondary_text text-center">Contact <span className="primary_text">Us</span></h1>
+                <div className="row">
+                    <div className="col-sm">
+                        <div className="mb-3 h-100">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.338100588081!2d30.991600269854413!3d-17.797418445946352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a5faffd81c1f%3A0x7d7eb865c33d333b!2sBodmin%20Ave%2C%20Harare!5e1!3m2!1sen!2szw!4v1725616400152!5m2!1sen!2szw" className="w-100 h-100 rounded mb-3" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+
+                        </div>
+                    </div>
+                    <div className="col-sm">
+                        <form ref={form} onSubmit={sendEmail}>
+                            <div className="mb-3">
+                                <span>Full Name</span>
+                                <input type="text" name="full_name" className="form-control"/>
+                            </div>
+                            <div className="mb-3">
+                                <span>Contact Number</span>
+                                <input type="tel" name="contact_number" className="form-control"/>
+                            </div>
+                            <div className="mb-3">
+                                <span>Email</span>
+                                <input type="email" name="email" className="form-control"/>
+                            </div>
+                            <div className="mb-3">
+                                <span>Your Message</span>
+                                <textarea className="form-control" name="message"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" className="btn primary_button " disabled={loading}>{loading?"Sending...":"Send"}</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
             <div className="text-center text-white secondary_background container-fluid pt-2 pb-2">
                 <div className="row d-flex align-items-center">
                     <div className="col-sm mb-3">
@@ -178,6 +247,7 @@ const Site = () => {
                 <span className="text-white">Made By <a className="text-white" target="_blank" href="https://aurorasystems.co.zw"><u>Aurora</u></a></span>
             </div>
         <FloatingWhatsApp phoneNumber="+263776034923" accountName="Ristian Consultancy" avatar="https://ngratesc.sirv.com/ristian/logo.png"/>
+        <ToastContainer/>
         </div>
     )
 }
