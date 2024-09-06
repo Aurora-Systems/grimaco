@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import "bootstrap/dist/css/bootstrap.min.css"
 import './index.css'
 import Site from './site'
-import { Footer, Navbar } from './compoents/navigation'
+import { Footer, NavbarComp } from './compoents/navigation'
 import { ToastContainer } from 'react-toastify'
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import 'react-toastify/dist/ReactToastify.css';
@@ -13,7 +13,7 @@ import Blog from './compoents/blog'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Navbar/>
+    <NavbarComp/>
     <BrowserRouter>
     <Routes>
 

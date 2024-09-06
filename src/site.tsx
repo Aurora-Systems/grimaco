@@ -1,34 +1,9 @@
 import { bg_img } from "./compoents/css_functions"
 import Marquee from "react-fast-marquee"
 import Star from "./compoents/StarRating"
-import emailjs from "@emailjs/browser"
-import { FormEvent, useRef, useState } from "react"
-import {toast} from "react-toastify"
 
 const Site = () => {
-    const [loading, set_loading] =useState<boolean>(false)
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const form:any = useRef();
-    const sendEmail = (e:FormEvent) => {
-    e.preventDefault();
-    set_loading(true)
-    emailjs
-      .sendForm('service_2tebyla', 'template_u5zwtxl', form.current, {
-        publicKey: 'ew1StMU__aUWbv1Rf',
-      })
-      .then(
-        () => {
-          toast('Message Sent');
-          form.current.reset()
-        },
-        (error) => {
-            toast('Failed to send message');
-            console.log(error)
-        },
-      ).finally(()=>{
-        set_loading(false)
-      })
-  };
+    
 
     return (
         <div>
@@ -183,35 +158,7 @@ const Site = () => {
                 </div>
 
             </div>
-            <div className="container-fluid mb-3">
-                <h1 className="secondary_text text-center">Contact <span className="primary_text">Us</span></h1>
-                <div className="row">
-                    
-                    <div className="col-sm">
-                        <form ref={form} onSubmit={sendEmail}>
-                            <div className="mb-3">
-                                <span>Full Name</span>
-                                <input type="text" name="full_name" className="form-control"/>
-                            </div>
-                            <div className="mb-3">
-                                <span>Contact Number</span>
-                                <input type="tel" name="contact_number" className="form-control"/>
-                            </div>
-                            <div className="mb-3">
-                                <span>Email</span>
-                                <input type="email" name="email" className="form-control"/>
-                            </div>
-                            <div className="mb-3">
-                                <span>Your Message</span>
-                                <textarea className="form-control" name="message"></textarea>
-                            </div>
-                            <div>
-                                <button type="submit" className="btn primary_button " disabled={loading}>{loading?"Sending...":"Send"}</button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
+          
          
        
         </div>
