@@ -196,12 +196,7 @@ const Site = () => {
             <div className="container-fluid mb-3">
                 <h1 className="secondary_text text-center">Contact <span className="primary_text">Us</span></h1>
                 <div className="row">
-                    <div className="col-sm">
-                        <div className="mb-3 h-100">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3017.338100588081!2d30.991600269854413!3d-17.797418445946352!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a5faffd81c1f%3A0x7d7eb865c33d333b!2sBodmin%20Ave%2C%20Harare!5e1!3m2!1sen!2szw!4v1725616400152!5m2!1sen!2szw" className="w-100 h-100 rounded mb-3" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-
-                        </div>
-                    </div>
+                    
                     <div className="col-sm">
                         <form ref={form} onSubmit={sendEmail}>
                             <div className="mb-3">
