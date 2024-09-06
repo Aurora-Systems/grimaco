@@ -6,6 +6,7 @@ const SubstackFeed = () => {
       substackUrl: "grimaco.substack.com",
       layout: "right",
       posts: 3,
+      filter: "top",
       colors: {
         primary: "#570157",
         secondary: "#580000",

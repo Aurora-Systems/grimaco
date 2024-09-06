@@ -3,6 +3,7 @@ declare global {
       SubstackFeedWidget: {
         substackUrl: string;
         posts: number;
+        filter:string;
         layout: string,
         colors: {
           primary: string;
