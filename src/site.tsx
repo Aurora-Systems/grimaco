@@ -117,7 +117,7 @@ const Site = () => {
                         
                     </div>
                     <div className="col-sm text-center rounded p-3 border">
-                        <p className="fw-bold primary_text">Intergirty</p>
+                        <p className="fw-bold primary_text">Intergrity</p>
                         <p>Integrity is the cornerstone of our business. We operate with transparency, honesty, and ethical principles in every interaction. Our commitment to integrity ensures that we build lasting, trust-based relationships with our clients, always putting their best interests at the forefront of our work.</p>
                        
                     </div>
