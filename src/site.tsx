@@ -253,7 +253,7 @@ const Site = () => {
             <div className="text-center primary_background ">
                 <span className="text-white">Made By <a className="text-white" target="_blank" href="https://aurorasystems.co.zw"><u>Aurora</u></a></span>
             </div>
-        <FloatingWhatsApp phoneNumber="+263776034923" accountName="Ristian Consultancy" avatar="https://ngratesc.sirv.com/ristian/logo.png"/>
+        <FloatingWhatsApp phoneNumber="+263776034923" accountName="Grimaco Incorporated" avatar="https://ngratesc.sirv.com/grimaco/GI.png"/>
         <ToastContainer/>
         </div>
     )
