@@ -9,6 +9,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const Site = () => {
     const [loading, set_loading] =useState<boolean>(false)
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const form:any = useRef();
     const sendEmail = (e:FormEvent) => {
     e.preventDefault();
@@ -24,6 +25,7 @@ const Site = () => {
         },
         (error) => {
             toast('Failed to send message');
+            console.log(error)
         },
       ).finally(()=>{
         set_loading(false)
@@ -72,7 +74,12 @@ const Site = () => {
                     <div className="col-sm p-3 card_hover rounded border">
                         <p className="fw-bold ">Network Marketing</p>
                         <p>Expand your business reach with our Network Marketing services. We help you build strong, sustainable networks to increase your market presence and drive growth. Through strategic planning and personalized guidance, we equip you with the tools and tactics needed to develop a successful network marketing strategy that fosters relationships, generates leads, and boosts your brand visibility. Let us help you tap into new opportunities by leveraging the power of networks to grow your business.</p>
-
+                    </div>
+                </div>
+                <div className="row gap-3 m-4 text-center">
+                    <div className="col-sm p-3 card_hover rounded border">
+                        <p className="fw-bold"> Marketing & Brand Activation</p>
+                        <p>Bring your brand to life with our dynamic Brand Activation services. We specialize in creating impactful experiences that engage your target audience and elevate your brand's visibility. Through innovative campaigns, events, and interactive strategies, we help you build meaningful connections with customers and drive brand loyalty. Whether launching a new product or rejuvenating an existing brand, our tailored approach ensures your brand makes a lasting impression in the marketplace.</p>
                     </div>
                 </div>
             </div>
