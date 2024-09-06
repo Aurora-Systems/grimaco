@@ -24,7 +24,7 @@ export const NavbarComp=()=>{
                                     <Nav.Link className="text-black" href="/blog">Blog</Nav.Link>
                                     <Nav.Link className="text-black" href="#contact">Contact</Nav.Link>
                                 </Nav>
-                                <a href="tel:+2636034923"><button className="btn primary_button w-100">Call Us</button></a>
+                                <a href="tel:+263776034923"><button className="btn primary_button w-100">Call Us</button></a>
                             </NavbarCollapse>
                     </Navbar>
                     </div>
