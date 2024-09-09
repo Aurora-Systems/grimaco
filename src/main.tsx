@@ -22,7 +22,7 @@ createRoot(document.getElementById('root')!).render(
     </Routes>
     </BrowserRouter>
     <Footer/>
-    <FloatingWhatsApp phoneNumber="+263776034923" accountName="Grimaco Incorporated" avatar="https://ngratesc.sirv.com/grimaco/GI.png"/>
+    <FloatingWhatsApp phoneNumber="+263776034923" accountName="Grimaco Incorporated" avatar="https://ngratesc.sirv.com/grimaco/logo.png"/>
     <ToastContainer/>
   </StrictMode>,
 )
