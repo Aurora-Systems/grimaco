@@ -10,6 +10,7 @@ const Site = () => {
             
             <div className="d-flex  justify-content-center align-items-center" style={{ ...bg_img("https://ngratesc.sirv.com/ristian/home.jpg"), height: "90vh" }}>
                 <div className="text-center bg-light bg-opacity-50 p-5 rounded">
+                    <img src="https://ngratesc.sirv.com/grimaco/logo.png" className="img-fluid"  width={120}/>
                     <h1 className="display-1 primary_text">Grimaco <span className="secondary_text">Incorporated</span></h1>
                     <p className="f fst-italic">"Your Satisfaction, Our Pleasure"</p>
                     <a href="https://wa.me/+263776034923" target="_blank"><button className="btn primary_button">Find Out More</button></a>
