@@ -90,7 +90,7 @@ export const Footer=()=>{
                     </div>
                 </div>
             </div>
-           <div className="text-center text-white secondary_background container-fluid pt-2 pb-2">
+           <div className="text-center text-white secondary_background container-fluid pt-2 pb-2 normal_font">
                 <div className="row d-flex align-items-center">
                     <div className="col-sm mb-3">
                         <p className="fw-bold">Contact Details</p>
@@ -103,7 +103,9 @@ export const Footer=()=>{
                     <div className="col-sm mb-3">
                         <p className="fw-bold">Socials</p>
                         <div className="d-flex flex-column">
-                            <span><a className="text-white" href="https://www.linkedin.com/company/grimaco-incorporated/"  target="_blank">Linkedin</a></span>
+                            <span className="link-underline"><u><a className="text-white link-underline" href="https://www.linkedin.com/company/grimaco-incorporated/"  target="_blank">Linkedin</a></u></span>
+                            <span className="link-underline"><u><a className="text-white link-underline" href="https://www.facebook.com/grimacoinc"  target="_blank">Facebook</a></u></span>
+
                             <br/>
                             <span>All Rights Reserved © Grimaco Incorporated {new Date().getFullYear()}</span>
                         </div>

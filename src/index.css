@@ -16,6 +16,10 @@ body{
   font-family: baskervviller;
 }
 
+.normal_font{
+  font-family: sans-serif;
+}
+
 
 .primary_button{
   background-color: var(--primary_color) !important;
