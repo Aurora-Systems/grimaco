@@ -26,26 +26,31 @@ const Site = () => {
                     <div className="col-sm card_hover p-3 rounded border">
                         <p className="fw-bold ">Business Consultancy</p>
                         <p>Our business consultancy services are designed to help you navigate the complexities of today's market. We provide strategic insights and actionable plans tailored to your unique business needs, helping you optimize operations, reduce costs, and unlock new growth opportunities. Partner with us to transform your business into a more efficient, competitive, and successful enterprise.</p>
+                        <u><a href="/services/business_consultancy"><button className="btn primary_button">View</button></a></u>
                     </div>
                     <div className="col-sm card_hover p-3 rounded border">
                         <p className="fw-bold ">Sales Training</p>
                         <p>Empower your sales team with the skills and knowledge they need to excel. Our sales training programs focus on developing critical sales techniques, customer engagement strategies, and closing skills. Whether your team is new to sales or seasoned professionals, our training is tailored to enhance their performance, drive higher conversion rates, and ultimately boost your bottom line.</p>
+                        <a href="/services/sales_training"><button className="btn primary_button">View</button></a>
                     </div>
                 </div>
                 <div className="row gap-3 m-4 text-center">
                     <div className="col-sm card_hover  p-3 rounded border">
                         <p className="fw-bold ">Executive Coaching</p>
                         <p>Designed for business professionals, our executive coaching services focus on enhancing execution and motivation. We work with leaders and executives to refine their skills, overcome challenges, and unlock their full potential. Whether you're looking to improve decision-making, leadership abilities, or overall effectiveness, our personalized coaching ensures you achieve your professional goals and lead your organization with confidence.</p>
+                        <a href="/services/executive_coaching"><button className="btn primary_button">View</button></a>
                     </div>
                     <div className="col-sm p-3 card_hover rounded border">
                         <p className="fw-bold ">Network Marketing</p>
                         <p>Expand your business reach with our Network Marketing services. We help you build strong, sustainable networks to increase your market presence and drive growth. Through strategic planning and personalized guidance, we equip you with the tools and tactics needed to develop a successful network marketing strategy that fosters relationships, generates leads, and boosts your brand visibility. Let us help you tap into new opportunities by leveraging the power of networks to grow your business.</p>
+                        <a href="/services/network_marketing"><button className="btn primary_button">View</button></a>
                     </div>
                 </div>
                 <div className="row gap-3 m-4 text-center">
                     <div className="col-sm p-3 card_hover rounded border">
                         <p className="fw-bold"> Marketing & Brand Activation</p>
                         <p>Bring your brand to life with our dynamic Brand Activation services. We specialize in creating impactful experiences that engage your target audience and elevate your brand's visibility. Through innovative campaigns, events, and interactive strategies, we help you build meaningful connections with customers and drive brand loyalty. Whether launching a new product or rejuvenating an existing brand, our tailored approach ensures your brand makes a lasting impression in the marketplace.</p>
+                        <a href="/services/marketing_and_brand_activation"><button className="btn primary_button">View</button></a>
                     </div>
                 </div>
             </div>
@@ -158,6 +163,25 @@ const Site = () => {
                     </div>
                 </div>
 
+            </div>
+            <div className="container mb-4">
+            <div className="text-center">
+                <h1>Meet The team</h1>
+                <div className="row gap-2">
+                    <div className="col-sm border p-2 rounded">
+                        <img className="img-fluid  rounded-5" width={300} src="https://ngratesc.sirv.com/grimaco/gilbert.jpg" />
+                        <p className="fw-bold mt-1">Gilbert Madziva -  Business Consultant</p>
+                        <p>
+
+Gilbert Madziva is a seasoned Business Consultant with over 20 years of experience in marketing, sales, and enterprise consulting. Since 2018, Gilbert has been a key consultant at Grimaco Incorporated, where he specializes in soft skills training, enterprise consulting, and business development strategies. His career includes extensive leadership experience, having previously served as Marketing and Sales Manager at ZB Financial Holdings Limited for nearly 19 years. Gilbert’s freelance work further enhances his expertise in sales and marketing, making him an invaluable asset to businesses seeking growth and operational excellence.</p>
+                    </div>
+                    <div className="col-sm border p-2 rounded">
+                        <img src="https://ngratesc.sirv.com/grimaco/zayne.jpg" width={300} className="img-fluid rounded-5"/>
+                        <p className="fw-bold mt-1">Zayne Komichi - Digital Consultant</p>
+                        <p>Zayne Komichi is a dynamic product manager and digital innovator with a passion for accelerating digital adoption across Africa. As a co-founder of Aurora, Zayne leads efforts in web technologies and process improvement, helping businesses turn ideas into reality with StartUp,  a Zimbabwean based accelerator. With extensive experience as a Full Stack Developer & IT Consultant, Zayne has honed his skills in web technologies and IT consulting. Certified in Business Analysis & Process Management, he is also a proud member of Microsoft for Startups Founders Hub, where he assists startups in scaling and achieving success.</p>
+                    </div>
+                </div>
+            </div>
             </div>
           
          
