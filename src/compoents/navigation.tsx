@@ -1,5 +1,5 @@
 import { FormEvent, useRef, useState } from "react"
-import { Nav, NavbarBrand, NavbarCollapse, Navbar } from "react-bootstrap"
+import { Nav, NavbarBrand, NavbarCollapse, Navbar, NavDropdown } from "react-bootstrap"
 import emailjs from "@emailjs/browser"
 import {toast} from "react-toastify"
 
@@ -22,6 +22,13 @@ export const NavbarComp=()=>{
                             <NavbarCollapse  id="basic-navbar-nav ">
                                 <Nav className="text-dark me-auto ">
                                     <Nav.Link  className="text-black" href="/">Home</Nav.Link>
+                                    <NavDropdown title="Services" className="text-black">
+                                        <NavDropdown.Item href="/services/business_consultancy">Business Consultancy</NavDropdown.Item>
+                                        <NavDropdown.Item href="/services/sales_training">Sales Training</NavDropdown.Item>
+                                        <NavDropdown.Item href="/services/executive_coaching">Executive Coaching</NavDropdown.Item>
+                                        <NavDropdown.Item href="/services/network_marketing">Network Marketing</NavDropdown.Item>
+                                        <NavDropdown.Item href="/services/marketing_and_brand_activation">Marketing & Brand Activation</NavDropdown.Item>
+                                    </NavDropdown>                                    
                                     <Nav.Link className="text-black" href="/blog">Blog</Nav.Link>
                                     <Nav.Link className="text-black" href="#contact">Contact</Nav.Link>
                                 </Nav>
