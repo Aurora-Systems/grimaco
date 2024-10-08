@@ -42,7 +42,8 @@ const Site = () => {
                     </div>
                     <div className="col-sm p-3 card_hover rounded border">
                         <p className="fw-bold ">Network Marketing</p>
-                        <p>Expand your business reach with our Network Marketing services. We help you build strong, sustainable networks to increase your market presence and drive growth. Through strategic planning and personalized guidance, we equip you with the tools and tactics needed to develop a successful network marketing strategy that fosters relationships, generates leads, and boosts your brand visibility. Let us help you tap into new opportunities by leveraging the power of networks to grow your business.</p>
+                        <p>Start Your Own Scalable Business Today!
+Are you ready to take control of your financial future without the heavy costs of starting a traditional business? By joining our digital franchising team, you’ll have the opportunity to build a scalable, flexible business on your terms. With minimal upfront investment and low startup costs, you can unlock unlimited earning potential, leverage on a proven system and an established product line, and receive comprehensive training, daily mentorship, and support to grow your business. </p>
                         <a href="/services/network_marketing"><button className="btn primary_button">View</button></a>
                     </div>
                 </div>
