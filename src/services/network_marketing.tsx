@@ -25,7 +25,7 @@ Are you ready to take control of your financial future without the heavy costs o
            
         <div className="row gap-2 mb-5">
             <div className="col-sm border rounded p-2">
-                <h3><i className="bi bi-people"></i></h3>
+                <h3><i className=" bi bi-arrow-up"></i></h3>
                 <p className="fw-bold">Growth mindset and Financial Literacy</p>
                 <p>Success in business requires not just effort, but the right mindset and financial understanding. We explore the importance of cultivating a growth-oriented mindset and an entrepreneurial philosophy necessary for overcoming challenges and staying motivated. This covers in detail the following;
 
@@ -33,7 +33,7 @@ Mindset for Success; Breaking the bondage of Poverty; Financial Literacy; Goal S
 </p>
             </div>
             <div className="col-sm border rounded p-2">
-                <h3><i className="bi bi-person-hearts"></i></h3>
+                <h3><i className="bi bi-people"></i></h3>
                 <p className="fw-bold">Building Teams and Expanding Your Influence</p>
                 <p>We help you build a thriving business anchored on the ability to recruit, engage, and retain team members. Here the focus is on strategies for growing strong teams, including but not limited to;
 
@@ -41,7 +41,7 @@ Effective Prospecting; Recruitment Techniques; Duplication Strategy and Team Gro
                 </p>
             </div>
             <div className="col-sm border rounded p-2">
-                <h3><i className="bi bi-arrow-up"></i></h3>
+                <h3><i className=" bi bi-person-up"></i></h3>
                 <p className="fw-bold">Communication Skills and Leadership Development</p>
                 <p>Strong leadership is essential for sustaining long-term success. This area delves into the skills and traits necessary to lead, motivate, and inspire colleagues to consistently exceed their past peak performances. 
 
