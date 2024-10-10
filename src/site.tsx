@@ -184,6 +184,31 @@ Gilbert Madziva is a seasoned Business Consultant with over 20 years of experien
                 </div>
             </div>
             </div>
+            <div className="text-center container mb-5">
+                <h1 className="">Call To Action</h1>
+              
+           
+            <div className="row gap-2">
+                <div className="col-sm card">
+<h1 className="display-1 fw-bold">1</h1>
+<p className="fw-bold">Explore Our services</p>
+                <p>Browse through our tailored solutions for sales training, executive coaching, and consultancy to find the best fit for your business needs.
+                </p>
+                </div>
+                <div className="col-sm card">
+                <h1 className="display-1 fw-bold">2</h1>
+<p className="fw-bold">Book A free Consultations</p>
+                <p>Schedule a free 30-minute consultation with our experts to discuss your challenges and goals, and discover how we can help you achieve success.
+                </p>
+                </div>
+                <div className="col-sm card">
+                <h1 className="display-1 fw-bold">3</h1>
+<p className="fw-bold">Start Growing Your Business</p>
+                <p>Partner with us to implement personalized strategies that drive sales, enhance leadership skills, and transform your business for long-term growth.
+                </p>
+                </div>
+            </div>
+            </div>
           
          
        
