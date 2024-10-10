@@ -13,7 +13,7 @@ Are you ready to take control of your financial future without the heavy costs o
 </p>
 <p>Don’t miss the chance to create a profitable, sustainable business with low risk and high rewards. </p>
 <p>Ready to get started?</p>
-<button className="btn primary_button">Join Us Today</button>
+<a href="https://wa.me/263776034923"><button className="btn primary_button">Join Us Today</button></a>
        
                     </div>
                
