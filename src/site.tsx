@@ -167,11 +167,12 @@ Are you ready to take control of your financial future without the heavy costs o
             </div>
             <div className="container mb-4">
             <div className="text-center">
-                <h1>Meet The team</h1>
+                <h1>Meet The Team Leaders</h1>
                 <div className="row gap-2">
                     <div className="col-sm border p-2 rounded">
                         <img className="img-fluid  rounded-5" width={300} src="https://ngratesc.sirv.com/grimaco/gilbert.jpg" />
                         <p className="fw-bold mt-1">Gilbert Madziva -  Business Consultant</p>
+                        <p><i>Business Administration, Marketing, MSc Services Marketing</i></p>
                         <p>
 
 Gilbert Madziva is a seasoned Business Consultant with over 20 years of experience in marketing, sales, and enterprise consulting. Since 2018, Gilbert has been a key consultant at Grimaco Incorporated, where he specializes in soft skills training, enterprise consulting, and business development strategies. His career includes extensive leadership experience, having previously served as Marketing and Sales Manager at ZB Financial Holdings Limited for nearly 19 years. Gilbert’s freelance work further enhances his expertise in sales and marketing, making him an invaluable asset to businesses seeking growth and operational excellence.</p>
@@ -179,6 +180,7 @@ Gilbert Madziva is a seasoned Business Consultant with over 20 years of experien
                     <div className="col-sm border p-2 rounded">
                         <img src="https://ngratesc.sirv.com/grimaco/zayne.jpg" width={300} className="img-fluid rounded-5"/>
                         <p className="fw-bold mt-1">Zayne Komichi - Digital Consultant</p>
+                        <p ><i>Business Analysis & Process Management, Project Management, Software Engineering</i></p>
                         <p>Zayne Komichi is a dynamic product manager and digital innovator with a passion for accelerating digital adoption across Africa. As a co-founder of Aurora, Zayne leads efforts in web technologies and process improvement, helping businesses turn ideas into reality with StartUp,  a Zimbabwean based accelerator. With extensive experience as a Full Stack Developer & IT Consultant, Zayne has honed his skills in web technologies and IT consulting. Certified in Business Analysis & Process Management, he is also a proud member of Microsoft for Startups Founders Hub, where he assists startups in scaling and achieving success.</p>
                     </div>
                 </div>
