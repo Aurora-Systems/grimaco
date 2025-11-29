@@ -41,7 +41,7 @@ const SalesTraining=()=>{
        <p className="fw-bold">Whether your team is new to sales or seasoned veterans, our programs are designed to elevate their performance, ensuring long-term success and profitability.</p> 
         </div>
         <div className="mb-5 text-center">
-                <img src="https://ngratesc.sirv.com/grimaco/37174.jpg" className="img-fluid  rounded"/>
+                <img src="https://cdn.clipond.com/grimaco/37174.jpg" className="img-fluid  rounded"/>
             </div>
         </div>
        
