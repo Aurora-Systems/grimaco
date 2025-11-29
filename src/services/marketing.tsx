@@ -33,7 +33,7 @@ const Marketing = () => {
                     </p>
                 </div>
                 <div className="mb-5 text-center">
-                <img src="https://ngratesc.sirv.com/grimaco/95312.jpg" className="img-fluid  rounded" />
+                <img src="https://cdn.clipond.com/grimaco/95312.jpg" className="img-fluid  rounded" />
             </div>
             </div>
            
