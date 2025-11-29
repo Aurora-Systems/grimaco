@@ -8,9 +8,9 @@ const Site = () => {
     return (
         <div>
             
-            <div className="d-flex  justify-content-center align-items-center" style={{ ...bg_img("https://ngratesc.sirv.com/ristian/home.jpg"), height: "90vh" }}>
+            <div className="d-flex  justify-content-center align-items-center" style={{ ...bg_img("https://cdn.clipond.com/ristian/home.jpg"), height: "90vh" }}>
                 <div className="text-center bg-light bg-opacity-50 p-5 rounded">
-                    <img src="https://ngratesc.sirv.com/grimaco/logo.png" className="img-fluid"  width={120}/>
+                    <img src="https://cdn.clipond.com/grimaco/logo.png" className="img-fluid"  width={120}/>
                     <h4 className="primary_text">Grimaco <span className="secondary_text">Incorporated</span></h4>
                     <p className="f fst-italic">"Your Satisfaction, Our Pleasure"</p>
                     <a href="https://wa.me/+263776034923" target="_blank"><button className="btn primary_button">Find Out More</button></a>
@@ -63,7 +63,7 @@ Are you ready to take control of your financial future without the heavy costs o
                         <p>At Grimaco Incorporated, we are dedicated to empowering businesses through expert consultancy, sales coaching, and comprehensive training solutions. Our commitment is to provide the highest quality services that meet the evolving needs of our clients. With a foundation built on integrity, excellence, and unwavering dedication, we strive to help your business not only survive but thrive in today’s competitive landscape. Welcome to a partnership where your success is our ultimate goal.</p>
                         <a href="https://wa.me/263776034923" target="_blank"><button className="btn primary_button">Get In Touch</button></a>
                     </div>
-                    <div className="col-sm  p-5" style={{ ...bg_img("https://ngratesc.sirv.com/ristian/home_second.jpg"), minHeight: "50vh" }}>
+                    <div className="col-sm  p-5" style={{ ...bg_img("https://cdn.clipond.com/ristian/home_second.jpg"), minHeight: "50vh" }}>
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@ Are you ready to take control of your financial future without the heavy costs o
                             <a href="https://wa.me/263776034923" target="_blank"><button className="btn secondary_button">Get In Touch</button></a>
                         </div>
                     </div>
-                    <div className="col-sm primary_background p-5" style={{ ...bg_img("https://ngratesc.sirv.com/ristian/home_third.jpg"), minHeight: "50vh" }}>
+                    <div className="col-sm primary_background p-5" style={{ ...bg_img("https://cdn.clipond.com/ristian/home_third.jpg"), minHeight: "50vh" }}>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@ Are you ready to take control of your financial future without the heavy costs o
                     <p>To build a commercially viable, evolving self-contained, and well-equipped enterprise that is adaptive to and capable of withstanding competitive forces and challenges that present themselves in the wider environment in its quest to outlive its founders.</p>
                 </div>
                 <div className="mb-3 mt-3">
-                    <img src="https://ngratesc.sirv.com/ristian/2149009004.jpg" className="img-fluid"/>
+                    <img src="https://cdn.clipond.com/ristian/2149009004.jpg" className="img-fluid"/>
                 </div>
 
                 <div className=""><p><span className="display-5 fw-bold primary_text ">Our Core Values</span></p>
@@ -170,7 +170,7 @@ Are you ready to take control of your financial future without the heavy costs o
                 <h1>Meet The Team Leaders</h1>
                 <div className="row gap-2">
                     <div className="col-sm border p-2 rounded">
-                        <img className="img-fluid  rounded-5" width={300} src="https://ngratesc.sirv.com/grimaco/gilbert.jpg" />
+                        <img className="img-fluid  rounded-5" width={300} src="https://cdn.clipond.com/grimaco/gilbert.jpg" />
                         <p className="fw-bold mt-1">Gilbert Madziva -  Business Consultant</p>
                         <p><i>Business Administration, Marketing, MSc Services Marketing</i></p>
                         <p>
@@ -178,7 +178,7 @@ Are you ready to take control of your financial future without the heavy costs o
 Gilbert Madziva is a seasoned Business Consultant with over 20 years of experience in marketing, sales, and enterprise consulting. Since 2018, Gilbert has been a key consultant at Grimaco Incorporated, where he specializes in soft skills training, enterprise consulting, and business development strategies. His career includes extensive leadership experience, having previously served as Marketing and Sales Manager at ZB Financial Holdings Limited for nearly 19 years. Gilbert’s freelance work further enhances his expertise in sales and marketing, making him an invaluable asset to businesses seeking growth and operational excellence.</p>
                     </div>
                     <div className="col-sm border p-2 rounded">
-                        <img src="https://ngratesc.sirv.com/grimaco/zayne.jpg" width={300} className="img-fluid rounded-5"/>
+                        <img src="https://cdn.clipond.com/grimaco/zayne.jpg" width={300} className="img-fluid rounded-5"/>
                         <p className="fw-bold mt-1">Zayne Komichi - Digital Consultant</p>
                         <p ><i>Business Analysis & Process Management, Project Management, Software Engineering</i></p>
                         <p>Zayne Komichi is a dynamic product manager and digital innovator with a passion for accelerating digital adoption across Africa. As a co-founder of Aurora, Zayne leads efforts in web technologies and process improvement, helping businesses turn ideas into reality with StartUp,  a Zimbabwean based accelerator. With extensive experience as a Full Stack Developer & IT Consultant, Zayne has honed his skills in web technologies and IT consulting. Certified in Business Analysis & Process Management, he is also a proud member of Microsoft for Startups Founders Hub, where he assists startups in scaling and achieving success.</p>
