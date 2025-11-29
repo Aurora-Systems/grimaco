@@ -53,7 +53,7 @@ const NetworkMarketing = () => {
                     <p className="fw-bold">Let Grimaco’s expertise in network marketing help you tap into new opportunities and build a stronger, more connected business.</p>
                 </div>
                 <div className="mb-5 text-center">
-                    <img src="https://ngratesc.sirv.com/grimaco/1%25%20club.png" className="img-fluid  rounded" />
+                    <img src="https://cdn.clipond.com/grimaco/1%25%20club.png" className="img-fluid  rounded" />
                 </div>
             </div>
 
