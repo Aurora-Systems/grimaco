@@ -41,7 +41,7 @@ const ExecutiveCoaching=()=>{
        <p className="fw-bold">Our coaching sessions are designed to help leaders, executives, and business owners refine their strategies, unlock their potential, and achieve their professional goals.</p> 
         </div>
         <div className="mb-2 text-center">
-                <img src="https://ngratesc.sirv.com/grimaco/4620.jpg" className="img-fluid  rounded"/>
+                <img src="https://cdn.clipond.com/grimaco/4620.jpg" className="img-fluid  rounded"/>
             </div>
         </div>
         
