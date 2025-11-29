@@ -32,7 +32,7 @@ const BusinessConsultancy=()=>{
            <p className="fw-bold">Partner with us, and together we’ll transform your business into a more efficient, competitive, and successful enterprise.</p> 
             </div>
             <div className="mb-5 text-center">
-                <img src="https://ngratesc.sirv.com/grimaco/45557.jpg" className="img-fluid  rounded"/>
+                <img src="https://cdn.clipond.com/grimaco/45557.jpg" className="img-fluid  rounded"/>
             </div>
             </div>
            
