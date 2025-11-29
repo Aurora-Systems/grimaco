@@ -13,7 +13,7 @@ export const NavbarComp=()=>{
                     <Navbar expand="lg" >
                      
                            <NavbarBrand>
-                            <img src="https://ngratesc.sirv.com/grimaco/logo.png" className="img-fluid" width={40}/>
+                            <img src="https://cdn.clipond.com/grimaco/logo.png" className="img-fluid" width={40}/>
                                 {/* <h5 className="primary_text">Grimaco <span className="secondary_text">Incorporated</span></h5> */}
                             </NavbarBrand>
                             <Navbar.Toggle aria-controls="basic-navbar-nav "  >
